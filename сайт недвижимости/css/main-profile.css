@@ -1,0 +1,46 @@
+.div-form {
+    text-align: center;
+}
+
+.card-fon {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.card-info {
+    width: 20vw;
+    height: 42vh;
+    background-color: azure;
+}
+
+
+.card-info-photo {
+    width: 10vw;
+    height: 22vh;
+    border-radius: 100%;
+}
+
+.card-info-photo-p {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.card-info-p {
+    text-align: center;
+    background-color: darkorange;
+}
+
+.card-info-p2 {
+    text-align: center;
+}
+
+.card-podrobnosty {
+    background-color: rgb(255, 211, 196);
+    width: 70vw;
+    height: 42vh;
+}
