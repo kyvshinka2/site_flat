@@ -1,0 +1,25 @@
+.text {
+    width: 80vw;
+    padding-left: 10vw;
+}
+
+h2 {
+    font-family: 'Jura';
+    font-size: 30px
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul li {
+    font-family: 'Jura';
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.h2 {
+    background-color: #C0D4CB;
+    letter-spacing: 7px;
+}

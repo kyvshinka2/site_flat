@@ -1,0 +1,185 @@
+/*взаимодействие с ссылками*/
+/*цвет при наведении на ссылку*/
+a:hover {
+    color: rgb(255, 0, 0);
+}
+/*обычная ссылка*/
+a:link {
+    color: #000000;
+}
+
+.scroll {
+    scroll-behavior: smooth;
+}
+
+/*главное фото с логотипом*/
+.glav_photo {
+    background-image: url(../img/темный_главный_фон.png); /*фото на фон*/
+    display: flex;
+    flex-direction: column; /*расставляет элементы в колонну*/
+    justify-content: center; /*контент внутри дива*/
+    height: 50vw;
+    width: 99vw;
+}
+
+/*значение для фотографии, чтобы не было отступов*/
+body {
+    margin: 0;
+    background: #EFEBDF;
+    overflow-x: hidden; /*убирает прокрутку по оси х*/
+}
+
+/*фон для оглавления*/
+.header {
+    background-color: #F1E5E2;
+    width: 100%;
+}
+
+/*оглавление*/
+.nav {
+    text-decoration: none; /*подчеркивание отключить*/
+    margin: 0 20px; /*расстояние между словами*/
+    color: #000000;
+    font-family: 'Jura';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+    align-items: center; /*контент внутри дива*/
+    text-align: center;
+    text-transform: uppercase; /*верхний индекс*/
+}
+
+/*картинка дома*/
+.div-text {
+    background-image: url(../img/дом_полосочки.png);
+    width: 1517px;
+    height: 637px;
+}
+
+/*шрифт для тега*/
+p {
+    font-family: 'Jura';
+}
+
+/*Заголовок недвижимость по всей России!*/
+.p1 {
+    font-size: 45px;
+    padding-left: 25px;
+    padding-top: 90px;
+}
+
+/*маленький текст рядом с домом на главной странице*/
+.p2 {
+    font-size: 28px;
+    padding-top: 220px;
+    padding-right: 1060px;
+    text-align: center;
+}
+
+/*блок текст + картинка*/
+.blok-text {
+    width: 95vw;
+}
+
+/*текст блока текст + картинка*/
+.p-blok-text {
+    line-height: 41px;
+    display: absolute;
+    align-items: top;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    line-height: 55px;
+}
+
+/*картинка блока текст + картинка*/
+.img-blok {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+/*цвет и высота подвала*/
+.footer {
+    height: 20vh;
+    width: 100%;
+    background: #222;
+    flex-direction: row;
+    display: flex;
+}
+
+/*контент подвала*/
+.content-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+/*ссылка Главная в подвале*/
+.a-footer {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 25px
+}
+
+/*стилизация текста*/
+.text-a-footer {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+/*картинка подвала (логотип)*/
+.img-footer {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+/*заголовок социальных сетей*/
+h3 {
+    color: rgb(0, 26, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+}
+
+/*лист с соц сетями*/
+.social-list {
+    flex-direction: row;
+    float: left;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+/*картинка серая*/
+.social-list img {
+    opacity: 0.3;
+}
+
+/*при наведении становится ярче*/
+.social-list img:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+/*плавный переход по странице*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*блок с текстом copyright*/
+.copyright {
+    background-color: #000000;
+    padding: 1vh 0;
+    margin: 0;
+}
+
+/*выделено имя синим*/
+.copyright-span {
+    color: cyan;
+}
+
+/*основной текст белым*/
+.p-copyright {
+    color: #EFEBDF;
+}
